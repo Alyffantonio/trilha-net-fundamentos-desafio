@@ -18,7 +18,6 @@ namespace DesafioFundamentos.Models
 
         public void AdicionarVeiculo()  // Método para adicionar um veículo ao estacionamento
         {
-            // *IMPLEMENTADO*
             
             Console.WriteLine("Digite a placa do veículo para estacionar:");  // Solicitar ao usuário digitar uma placa e adicionar à lista "veiculos"
               
@@ -66,8 +65,6 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())  // Verificar se há veículos no estacionamento
             {
                 Console.WriteLine($"Tem {quantVeiculos} veiculos estacionados" );
-                
-                // *IMPLEMENTADO!
                 
                 foreach(string x in veiculos) // Iterar sobre a lista e exibir cada veículo
                 {
